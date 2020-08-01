@@ -1,0 +1,306 @@
+
+{
+    margin:0;
+    padding:0;
+    font-family:century gothic;
+}
+header{
+background-image: url(ccc.jpg);
+height:100vh;
+background-size: cover;
+background-position: center;
+clip-path: polygon(0% 0%,100% 0,100% 80%,0% 99%);
+
+}
+ul {
+    float: left;
+    list-style-type:none;
+    margin-top:20px;
+}
+ul li{
+    display:inline-block;
+    top: 50%;
+}
+ul li a{
+    text-decoration: none ;
+    color: rgb(141, 31, 12);
+    padding: 5px 20px;
+    border:1px solid rgb(250, 244, 244);
+    transition: :0.6s ease;
+}
+ul li a:hover{
+    color : white;
+    background: #2196f3;
+    
+
+}
+
+.title{
+    position: absolute;
+    top:50%;
+    left:40%;
+    font-size: 30px;
+}
+.lol{
+    position: absolute;
+    top:  8px;
+    right:16px;
+    
+}
+.apj h2{
+    position: absolute;
+    font-size: 400%;
+    font-weight: 500;
+    color: red;
+    top: 120%;
+    left:27% ;
+}
+.apj h3{
+    position: absolute;
+    top: 150%;
+    left:06% ;
+
+}
+.apj h4{
+    position: absolute;
+    top: 180%;
+    left:06% ;
+    font-size: larger;
+    color: red;
+}
+.apj h5{
+    position: absolute;
+    top: 184%;
+    left:06% ;
+    font-size: larger;
+
+}
+.apj h6{
+    position: absolute;
+    top: 147%;
+    left:41% ;
+}
+.apj h7{
+
+    position: absolute;
+    top: 185%;
+    left:38% ;
+    color: red;
+    font-size: larger;
+}
+.apj h8{
+    position: absolute;
+    top: 189%;
+    left:38% ;
+    font-size: larger;
+
+}
+.apj h11{
+
+    position: absolute;
+    top: 150%;
+    left:72% ;
+}
+.apj h9{
+   position: absolute;
+    top: 185%;
+    left:74% ;
+    color: red;
+    font-size: larger;
+
+}
+.apj h10{
+    position: absolute;
+    top: 189%;
+    left:74% ;
+    color:black;
+    font-size: larger;
+}
+
+ .ama h11{
+     position: absolute;
+     top: 221%;
+     left: 34%;
+     font-size: 55px;
+     font-weight: 300;
+     color: red;
+
+ }
+ .ama h12{
+     position: absolute;
+     top: 244%;
+     left: 05%;
+ }
+ .ama h13{
+    position: absolute;
+    top: 248%;
+    left: 73%;
+}
+.ama h14{
+    position: absolute;
+    top: 244%;
+    left: 37%;
+}
+.ama h15{
+    position: absolute;
+    top: 275%;
+    left: 39%;
+}
+.ama h16{
+    position: absolute;
+    top: 275%;
+    left: 05%;
+}
+.ama h17{
+    position: absolute;
+    top: 275%;
+    left: 73%;
+}
+.ama h18{
+    position: absolute;
+    top: 299%;
+    left: 34%;
+}
+.gun{
+    position: absolute;
+    top: 325%;
+}
+.gun h19{
+position: absolute;
+top: 26%;
+left: 02%;
+font-size: 130%;
+color: red;
+font-weight: 400;
+}
+.gun h20{
+    position: absolute;
+    top: 27%;
+    left: 64%;
+    font-size:130%;
+    color: blue;
+    }
+ .gun h21{
+    position: absolute;
+    top: 107%;
+    left: 43%;
+    font-size:390%;
+    color: rgb(6, 49, 28);
+    font-weight: 500;
+ } 
+ .gun h22{
+     position: absolute;
+     top: 131%;
+     left: 05%;
+ }
+ .gun h23{
+    position: absolute;
+    top: 131%;
+    left: 43%;
+}
+.gun h24{
+    position: absolute;
+    top: 132%;
+    left: 80%;
+}
+.gun h25{
+    position: absolute;
+    top: 200%;
+    left: 0%;
+}
+.gun h26{
+    position: absolute;
+    top: 224%;
+    left: 45%;
+    color: white;
+    font-size: large;
+}
+.gun h27{
+    position: absolute;
+    top: 207%;
+    left: 3%;
+   
+}
+.gun h28{
+    position: absolute;
+    top: 207%;
+    left: 7%;
+    color: white;
+    font-size: medium;
+   
+}
+.gun h29{
+    position: absolute;
+    top: 207%;
+    left: 42%;
+  
+}
+.gun h30{
+    position: absolute;
+    top: 209%;
+    left: 46%;
+    color: white;
+  
+}
+.gun h31{
+    position: absolute;
+    top: 220%;
+    left: 88%;
+    color: white;
+  
+}
+.gun h32{
+    position: absolute;
+    top: 223%;
+    left: 87%;
+    color: white;
+    font-size: smaller;
+
+  
+}
+.gun h33{
+    position: absolute;
+    top: 220%;
+    left: 3%;
+    color: white;
+}
+.gun h34{
+    position: absolute;
+    top: 167%;
+     left: 09%;
+     font-size: x-large;
+     color: red;
+}
+.gun h35{
+    position: absolute;
+    top: 167%;
+     left: 43%;
+     font-size: x-large;
+     color: red;
+}
+.gun h35{
+    position: absolute;
+    top: 167%;
+     left: 43%;
+     font-size: x-large;
+     color: red;
+}
+.gun h36{
+    position: absolute;
+    top: 167%;
+     left: 80%;
+     font-size: x-large;
+     color: red;
+}
+.gun h37{
+    position: absolute;
+    top: 206%;
+     left: 90%;
+     font-size: x-large;
+    color: white;
+     
+   
+}
+
+
+

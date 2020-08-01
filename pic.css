@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #050505;
+}
+.slider{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 1300px;
+    height: 550px;
+    background: url(cfc.jpg);
+    animation-duration: 4s;
+    margin: 100px auto;
+    animation:text 60s infinite;
+}
+@keyframes text{
+    
+    40%{
+        background: url(100.jpg);
+        animation-duration: 4s;
+    }
+
+    50%{
+    background: url(11.jpg);
+    animation-duration: 5s;
+    }
+    75%{
+    background: url(3.jpeg);
+    animation-duration: 5s;
+    }
+    100%{
+    background: url(200.jpg);
+    animation-duration: 5s;
+    
+    }
+}
+.gg{
+    position: absolute;
+    top: -20%;
+    left: 30%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+ul li{
+  font-size: 100px;
+  color: rgb(169, 222, 247);
+  letter-spacing:10px ;
+  font-weight:bold;
+  list-style:none;
+  transition: 2s;
+
+}
+ul:hover li{
+    transform: rotate(45deg) translateY(-200px);
+    opacity:0;
+    filter:blur(20px);
+}
+ul li:nth-child(1){
+    transition-delay: o;
+}
+ul li:nth-child(2){
+    transition-delay: 0.4s ;
+}
+ul li:nth-child(3){
+    transition-delay:0.8s ;
+}
+ul li:nth-child(4){
+    transition-delay: 1.2s;
+}
+ul li:nth-child(5){
+    transition-delay: 1.6s ;
+}
+ul li:nth-child(6){
+    transition-delay:2s ;
+}
+ul li:nth-child(7){
+    transition-delay:2.4s ;
+}
+ul li:nth-child(8){
+    transition-delay: 2.8s;
+}
+.ab h1{
+    position: absolute;
+    top: 14%;
+    right: 143%;
+}
+.ab h1 {
+    float: left;
+    list-style-type:none;
+    margin-top:20px;
+}
+h1 {
+    display:inline-block;
+    top: 50%;
+}
+  h1 {
+    text-decoration: none ;
+    color: rgb(141, 12, 29);
+    padding: 5px 20px;
+    border:1px solid rgb(5, 0, 0);
+    transition: :0.6s ease;
+}
+h1:hover{
+    color : white;
+    background: #2196f3;
+    
+
+}
+
+.ab h2 {
+    position: absolute;
+    top: 580%;
+    left:  140%;
+    float: right;
+    list-style-type:none;
+    margin-top:20px;
+}
+h2 {
+    display:inline-block;
+    top: 50%;
+}
+  h2 {
+    text-decoration: none ;
+    color: rgb(238, 236, 236);
+    padding: 5px 20px;
+    border:1px solid rgb(250, 244, 244);
+    transition: :0.6s ease;
+}
+h2:hover{
+    color : white;
+    background: #2196f3;
+    
+
+}
+.button{
+    position:absolute;
+    top :133%;
+    left: 87%;
+    transform:translate(-50%,-50%);
+    box-shadow:0 0 10px white,0 0 40px white, 0 0 80px rgb(245, 243, 243);
+}
+.btn{
+    border:1px solid rgb(255, 255, 255);
+    padding:10px 30px;
+    color:rgb(255, 251, 251);
+    text-decoration:none ;
+    transition:0.6s ease;
+}
+.btn:hover{
+    background-color:rgb(255, 255, 255);
+    color: red;
+}
